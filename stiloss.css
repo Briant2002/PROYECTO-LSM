@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para la barra de navegación */
+  nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .main-content {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @keyframes moveLeftRight {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); /* Distancia a la que se moverá */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  img{
+    animation: moveLeftRight 20s linear infinite; /* 5s de duración, lineal y infinita */
+  }
+  
+  /* Estilo básico para el cuerpo y el encabezado */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo básico para el cuerpo y el contenedor de imágenes */
+img {
+    font-family: Arial, sans-serif;
+    background-color: #e81d1d;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  img {
+    text-align: center; /* Alinea las imágenes al centro */
+  }
+  
+  img {
+    display: inline-table; /* Hace que las imágenes se comporten como elementos de línea */
+    max-width: 100%; /* Asegura que las imágenes no se extiendan más allá de su contenedor */
+    height: auto; /* Mantiene la proporción original de las imágenes */
+    margin: 10px; /* Espacio entre las imágenes */
+  }
+  
+  
+  /* Establecer un fondo para todo el documento HTML */
+.yooo {
+   
+    background: linear-gradient(to right, #f10606, #f74307); 
+    background-size: cover; /* Cubrir todo el área visible */
+    background-position: center; /* Centrar la imagen de fondo */
+    font-family: Arial, sans-serif; /* Familia de fuente para el texto */
+    margin: 0; /* Eliminar márgenes predeterminados del cuerpo */
+    padding: 20px; /* Añadir relleno al contenido */
+    color: #333; /* Color de texto principal */
+  }
+  
+  .content {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 20px auto; /* Centrar el contenido horizontalmente */
+    background-color: #1f9bbe; /* Fondo blanco para el contenido */
+    padding: 20px; /* Añadir espacio alrededor del contenido */
+    border-radius: 8px; /* Bordes redondeados para el contenido */
+    box-shadow: 0 0 10px rgba(23, 37, 238, 0.1); /* Sombra ligera */
+  }
+  
+  h1 {
+    color: #333; /* Color de texto para encabezados */
+  }
+  
+  p {
+    line-height: 1.6; /* Altura de línea para párrafos */
+  }
+  
+  /* Establecer una imagen de fondo para todo el documento HTML */
+.yooo {
+    background-image: url(''); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubrir todo el área visible */
+    background-position: center; /* Centrar la imagen de fondo */
+    font-family: Arial, sans-serif; /* Familia de fuente para el texto */
+    margin: 0; /* Eliminar márgenes predeterminados del cuerpo */
+    padding: 20px; /* Añadir relleno al contenido */
+    color: #333; /* Color de texto principal */
+  }
+  /* Establecer un fondo con degradado */
+body {
+    /* Uso de un degradado lineal */
+    background: linear-gradient(to right, #ffcccc, #ff99cc); /* Cambia los colores aquí */
+    font-family: Arial, sans-serif; /* Familia de fuente para el texto */
+    margin: 0; /* Eliminar márgenes predeterminados del cuerpo */
+    padding: 20px; /* Añadir relleno al contenido */
+    color: #333; /* Color de texto principal */
+  }
+  
+  
+  

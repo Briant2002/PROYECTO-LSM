@@ -1,0 +1,89 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Ajustar el ancho del contenedor principal */
+    max-width: 800px; /* Ancho máximo para evitar que el contenido se estire demasiado */
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  #gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #signImageContainer {
+    width: 300px; /* Ancho fijo para la imagen */
+    height: 300px; /* Altura fija para la imagen */
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* Ocultar partes de la imagen que se desbordan */
+  }
+  
+  #signImage {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .option {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .option:hover {
+    background-color: #45a049;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Mayor separación entre el juego y el botón */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  

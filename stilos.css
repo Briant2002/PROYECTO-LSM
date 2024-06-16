@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    background-color: antiquewhite;
+}
+
+
+
+
+  body {
+    font-family: 'Exo 2', sans-serif;
+    color: green;
+  }
+
+  body {
+    font-family: 'Exo 2', sans-serif;
+    color: green;
+  }
+
+
+#sec-traducir{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedores-traslate{
+    margin: 11px;
+}
+
+#seccion-boton, #seccion-reset{
+    display: flex;
+    justify-content: center;
+}
+
+.resultado{
+    display: flex;
+  
+    justify-content: center;
+}
+
+.resultado img{
+    width: 45px;
+}
+
