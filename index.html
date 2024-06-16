@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="stilos.css">
+        <title> Traductor de señas | umb </title>
+    </head>
+    <body>
+        <section class="hero is-info is-medium">
+            
+            <div class="hero-head">
+                <header class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item">
+                                <img src="assets/logo.png" alt="Logo Like Traslate">
+                            </a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="hero-body">
+              <div class="container has-text-centered">
+                <p class="title">
+                  Bienvenido a Traductor de Señas MS
+                </p>
+                <p class="subtitle">
+                  UESAA
+                </p>
+              </div>
+            </div>
+        </section>
+
+        <div class="tabs is-centered">
+            <ul>
+                <li id="btn-traducir" class=""><a>Traducir</a></li>
+                <li id="btn-acerca" class=""><a>Acerca de</a></li>
+                
+                <li id="" class="">
+                    <a href="abecedaio.html">Abecedario en lenguaje de señas</a>
+                    <li id="" class="">
+                        <a href="juego.html">Juego</a>
+                  
+               
+            </ul>
+        </div>
+
+        <div class="container mt-6" id="sec-traducir">
+            <div class="texto contenedores-traslate">
+                <label class="label ml-4" for="traducir">¿Cual es tu nombre?</label>
+                <input id="input-traducir" class="input is-info is-medium is-rounded" type="text" placeholder="Escribe Algo">
+            </div>
+            <fieldset disabled>
+                <div id="contenedor-traslate" class="traduccion contenedores-traslate resultado mt-5">
+ 
+                    
+                </div>
+            </fieldset>
+            <div id="seccion-boton" class="mt-6">
+                <button id="btn-traducir-ya" class="button is-info">Traducir</button>
+            </div>
+            <div id="seccion-reset" class="mt-2">
+                <button id="btn-reset" class="button is-warning">Intentar de nuevo</button>
+            </div>
+        </div>
+        
+
+        <div class="container mt-6" id="sec-acerca-de">
+            <div class="texto contenedores-traslate">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="content">
+                            PROYECTO SOBRE UN TRADUCTOR DE LENGUAJE DE SEÑAS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+        <script src="app.js"></script>
+    </body>
+</html>
